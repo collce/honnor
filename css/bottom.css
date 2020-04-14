@@ -1,0 +1,75 @@
+
+.bottom{
+	width: 100%;
+	height: 362px;
+	background-image: url('../image/bg_footer.jpg');
+	background-position: center top;
+	background-repeat: no-repeat;
+	margin-top: 50px;
+}
+.bot-center{
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+.bot-logo{
+	width: 1200px;
+	overflow: hidden;
+	border-bottom: 2px solid #e3e3e3;
+}
+.bot-logo .botlogo1{
+	width:285px;
+	height: 64px;
+	float: left;
+	background-image: url('../image/spr.png');
+	background-position: 0 0;
+	margin-bottom: 15px;
+}
+.bot-logo .botlogo2{
+	width:60px;
+	height: 64px;
+	float: left;
+	background-image: url('../image/spr.png');
+	background-position: -294px 0;
+	margin-bottom: 15px;
+	margin-left: 10px
+}
+.bot-text{
+	overflow: hidden;
+	margin-top: 15px;
+	color:#6d6d6d;
+	font-size: 12px;
+}
+.bot-text-left {
+	width: 500px;
+	float: left;
+	line-height: 20px;
+}
+.bot-text-left ul li:nth-child(1){
+	font-weight: bold;
+	color: #333;
+}
+.bot-text-left ul li:nth-child(2){
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.bot-text-left ul li:nth-child(2) span{
+	display: block;
+	float: left;
+	margin-right: 10px;
+
+}
+.bot-text-right{
+	width: 600px;
+	margin-left: 30px;
+}
+.bot-text-right ul li:nth-child(2) span{
+	display: block;
+	float: left;
+	margin: 0 2px;
+}
+.li-logo{
+	text-indent: 20px;
+	background: url('../image/icplogo.png') no-repeat;
+	background-position: 0 3px;
+}

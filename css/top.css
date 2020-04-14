@@ -1,0 +1,214 @@
+/*
+* @Author: admin
+* @Date:   2019-11-25 09:05:35
+* @Last Modified by:   admin
+* @Last Modified time: 2019-12-06 11:51:50
+*/
+*{
+	margin: 0px;
+	padding: 0px;
+	outline: none;
+}
+body{
+	font-size: 14px;
+	color: #333;
+}
+img{
+	display: block;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+li{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+i,em{
+	font-style: normal;
+	margin: 0px;
+	padding: 0px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+	font-size: 14px;
+}
+.top{
+	width: 100%;
+	min-width: 1200px;
+	position: relative;
+}
+.top-center{
+	width: 980px;
+	height: 40px;
+	margin: 0 auto;
+	line-height: 40px;	
+	position: relative;
+
+}
+.top-logo a{
+	float: left;
+	width: 150px;
+	height: 40px;
+	position: relative;
+	z-index: 4;
+	clear: both;
+	background: url('../image/logo.png') top center no-repeat;
+}
+.top-ad{
+	width: 230px;
+	float: left;
+	
+}
+.top-ad .top-ad-hidden{
+	width: 970px;
+	position: absolute;
+	padding: 0 3px 3px;
+	top: 0px;
+	left: 50%;
+	margin-left: -488px;
+	display: none;
+	z-index: 2;
+}
+.top-ad:hover .top-ad-hidden{
+	display: block;
+}
+.top-right{
+	width: 300px;
+	float: right;
+	font-size: 14px;
+}
+.top-right a{
+	float: right;
+	position: relative;
+}
+.top-right .top-protect{
+	width: 88px;
+	margin-right: 20px;
+	padding-left: 30px;
+}
+.top-right .top-protect:hover{
+	color: orange;
+}
+.top-right .top-protect::after{
+	content: '';
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 0px;
+	top: 5px;
+	background: url('../image/title_sprite.png');
+	background-position: -30px 0;
+}
+.top-right	.top-rank{
+	padding-right: 25px;
+}
+.top-right	.top-rank::after{
+	content: '';
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: 0px;
+	top: 5px;
+	background: url('../image/title_sprite.png');
+	transform: rotate(90deg);
+	opacity: 0.2;
+}
+
+.top-rank-form{
+	width: 700px;
+	height: 580px;
+	position: absolute;
+	top: 40px;
+	right: 0px;
+	z-index: 3;
+	display: none;
+	background-color: #FAFAFA;
+}
+
+.top-rank-col{
+	width: 200px;
+	margin-left: 30px;
+}
+.top-rank-col{
+	margin-bottom: 20px;
+	float: left;
+}
+.top-rank-col ul li{
+	width: 200px;
+	position: relative;
+	margin-bottom: 25px;
+}
+.top-rank-col ul li.hover span{
+	display: block;
+}
+.top-rank-col ul li.hover em{
+	display: none;
+}
+.top-rank-col h2{
+	line-height: 40px;
+	margin-bottom: 20px;
+	width: 200px;
+	position: relative;
+	font-weight: bold;
+}
+.top-rank-col h2.rank-title{
+	margin-bottom: 5px;
+}
+.top-rank-col h2::after{
+	content: '';
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: 0px;
+	top: 5px;
+	background: url('../image/title_sprite.png');
+	opacity: 0.2;
+}
+.top-rank-col ul li i{
+	width: 16px;
+	height: 16px;
+	background-color: #ccc;
+	font-size: 10px;
+	position: absolute;
+	line-height: 16px;
+	text-align: center;
+	color: white;
+	top: 0;
+	left: 0;
+	z-index: 2
+}
+.top-rank-col ul li i.rank-top{
+	background-color: #C62828;
+}
+.top-rank-col ul li em{
+	font-size: 14px;
+	display: block;
+	line-height: 16px;
+	margin-left: 20px;
+
+}
+.top-rank-col ul li span{
+	position: relative;
+	height: 92px;
+	z-index: 1;
+	display: none;
+
+}
+.top-rank-col ul li span p{
+	width: 100%;
+	height: 25px;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	
+}
+.top-rank-col ul li span p a{
+	color: white;
+	width: 100px;
+	float: left;
+	text-align: center;
+	line-height: 25px;
+}

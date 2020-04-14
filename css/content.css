@@ -1,0 +1,692 @@
+/*
+* @Author: admin
+* @Date:   2019-11-25 17:00:28
+* @Last Modified by:   admin
+* @Last Modified time: 2019-12-06 11:53:29
+*/
+.content-wrap{
+	width: 100%;
+	min-width: 1200px;
+	position: relative;
+	margin-top: 450px;
+	overflow: hidden;
+}
+.content{
+	width: 1200px;
+	margin: 0 auto;
+}
+.content-info{
+	width: 1200px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.content-info-left{
+	width: 604px;
+	height: 342px;
+	float: left;
+	overflow: hidden;
+
+}
+.content-info-left ul{
+	width: 3020px;
+	height: 298px;
+}
+.content-info-left ul li{
+	width: 604px;
+	float: left;
+}
+.content-info-left ul li img{
+	display: block;
+}
+.content-info-left ol{
+	width: 604px;
+	height: 44px;
+	background:#36363E;
+}
+.content-info-left ol li{
+	width: 120.8px;
+	height: 45px;
+	float: left;
+	background:#36363E;
+	color: #ccc;
+	line-height: 44px;
+	font-size: 14px;
+	text-align: center;
+	cursor: pointer;
+}
+.content-info-left ol li.banner-active{
+	background-color: #54545B;
+	color: #E8BE4D
+}
+.content-info-center{
+	width: 360px;
+	height: 342px;
+	padding: 0 18px;
+	box-sizing: border-box;
+	float: left;
+	background: rgba(18, 18, 22, 0.8);
+	overflow: hidden;
+
+}
+.content-info-center ul {
+	overflow: hidden;
+}
+.content-info-center ul li{
+	width: 54px;
+	height: 48px;
+	float: left;
+	border-bottom: 1px solid black;
+	color: #b8b9c5;
+	font-size: 14px;
+	line-height: 48px;
+	text-align: center;
+	box-sizing: border-box;
+	cursor: pointer;
+	transition: 0.3s
+}
+.content-info-center ul li.info-active
+{
+	color: #E8BE4D;
+	border-bottom: 3px solid #E8BE4D;
+}
+.content-info-center ol{
+	overflow: hidden;
+	width: 2000px;
+}
+.content-info-center ol li{
+	width: 324px;
+	height: 294px;
+	margin-right: 18px;
+	float: left;
+}
+.content-info-center ol li h1{
+	width: 294px;
+	height: 40px;
+	padding: 0 15px;
+	font-size: 18px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	color: #E8BE4D;
+	background-color:#36363E ;
+	line-height: 40px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+
+}
+.content-info-center ol li p {
+	width: 100%;
+	line-height: 32px;
+}
+
+.content-info-center ol li p a{
+	float: left;
+	width: 270px;
+	color:#b8b9c5;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.content-info-center ol li p a:hover{
+	text-decoration: underline;
+}
+.content-info-center ol li span{
+	color: #b8b9c5;
+	font-size: 12px;
+	float: right;
+}
+.content-info-right{
+	width: 236px;
+	height: 342px;
+	float: left;
+}
+.content-info-right a:nth-child(1){
+	display: block;
+	width: 236px;
+	height: 128px;
+	background-image: url('../image/index.png');
+	background-position: 0 -219px;
+}
+.content-info-right a:nth-child(2){
+	display: block;
+	width: 236px;
+	height: 106px;
+	background-image: url('../image/index.png');
+	background-position: 0 -350px;
+}
+.content-info-right a:nth-child(3){
+	display: block;
+	width: 236px;
+	height: 108px;
+	background-image: url('../image/index.png');
+	background-position: 0 -460px;
+}
+
+.content-tap{
+	width: 1200px;
+	margin: 30px auto;
+	overflow: hidden;
+}
+.content-tap li{
+	width:291px;
+	float: left;
+	margin-right: 12px;
+	overflow: hidden;
+
+}
+.content-tap li:nth-child(4){
+	margin-right: 0;
+}
+.content-tap li a{
+	display: block;
+	transition: 0.3s;
+}
+.content-tap li:hover a{
+	transform: scale(1.1);
+}
+.content-box{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+.contetn-box-focus{
+	width: 872px;
+	float: left;
+	margin-right: 33px;
+}
+
+.title-public a{
+	float: right;
+	padding-left: 25px;
+	color: #999;
+	margin-top: 5px;
+	background-image: url('../image/index.png');
+}
+.title-public a:hover{
+	color: #E8BE4D;
+}
+.title-public a.more{
+	background-position: -252px 3px;
+}
+.content-title h1{
+	background-position: 0 -104px;
+}
+.title-public{
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.title-public h1{
+	width: 140px;
+	font-size: 22px;
+	line-height: 30px;
+	font-weight: bolder;
+	text-indent: 33px;
+	background-image: url('../image/index.png');
+	float: left;
+	
+}
+.content-tap-button{
+	width: 872px;
+	height: 30px;
+	background-color: #F5F5F5;
+}
+.content-tap-button ul li{
+	width: 290px;
+	float: left;
+}
+
+.btton-public ul li{
+	height: 32px;
+	background:#F5F5F5;
+	float: left;
+	box-sizing: border-box;
+	text-align: center;
+	color: #999;
+	line-height: 32px;
+	cursor: pointer;
+	transition: 0.1s;
+
+}
+.btton-public ul li.button-active{
+	border-bottom: 3px #E8BE4D solid;
+	color: #333; 
+}
+.btton-public span{
+	width: 1px;
+	height: 20px;
+	background-color: #ccc;
+	margin: 6px 0;
+	float: left;
+}
+.content-focus-tip ul li{
+	height: 20px;
+	padding: 2px 15px;
+	margin: 12px 0;
+	margin-right: 10px;
+	float: left;
+	border: 1px solid #ccc;
+	background-color:#F5F5F5 ;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.content-focus-tip ul li.tip-active{
+	background-color:#E8BE4D ;
+	border: 1px solid #E8BE4D;
+	color: white;
+}
+.content-focus-list ul li{
+	display: none;
+}
+.content-focus-list ul li dl{
+	width: 208px;
+	float: left;
+	margin-right: 13px;
+	margin-bottom: 30px;
+	line-height: 22px;
+}
+.content-focus-list ul li dl:nth-child(4n){
+	margin-right: 0;
+}
+.content-focus-list ul li dl dt{
+	position: relative;
+}
+.content-focus-list ul li dl dt div{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: 0.3s;
+	z-index: 1;
+}
+.content-focus-list ul li dl:hover dt div{
+	opacity: 1;
+}
+.content-focus-list ul li dl:hover dd{
+	color: orange;
+}
+.content-focus-list ul li dl dt div span{
+	display: block;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -20px;
+	margin-left: -20px;
+	background-image: url('../image/index.png');
+	background-position: -192px -64px;
+}
+.content-focus-list ul li dl dt p{
+	width: 188px;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 0 10px;
+
+}
+.content-focus-list ul li dl dt p span{
+	color: white;
+	font-size: 12px;
+	padding-left: 20px;
+	background-image: url('../image/index.png');
+	background-position: -251px -62px;
+}
+.content-focus-list ul li dl dt p em{
+	color: white;
+	font-size: 12px;
+	float: right;
+}
+.content-focus-list ul li dl dd{
+	margin-top: 10px;
+}
+.content-focus-list ul li img{
+	display: block;
+	width: 208px;
+
+}
+
+.content-list-box{
+	display: none;
+}
+.chose-list>span{
+	display: block;
+	line-height: 26px;
+	margin: 13px 0;
+	text-indent: 25px;
+	cursor: pointer;
+	position: relative;
+}
+.chose-list>span::after{
+	content: '';
+	width: 0px;
+	height: 0px;
+	border: 6px solid transparent;
+	border-top: 6px solid #E8BE4D;
+	position: absolute;
+	top: 10px;
+	left: 85px;
+}
+.chose-list{
+	width: 100px;
+	height: 39px;
+	position: relative;
+}
+.chose-list:hover .strategy{
+	display: block;
+}
+.strategy{
+	width: 839px;
+	height: 337px;
+	position: absolute;
+	top: 39px;
+	left: 0px;
+	border: 1px solid #e3e3e3;
+	background-color: white;
+	z-index: 2;
+	display: none;
+}
+.strategy-left{
+	width: 78px;
+	float: left;
+}
+.strategy-left ul li{
+	height: 48px;
+	background-color: #f5f5f5;
+	line-height: 48px;
+	text-align: center;
+	cursor: pointer;
+}
+.strategy-left ul li.str-active{
+	background-color: #E8BE4D;
+	color: white;
+}
+.strategy-right{
+	float: left;
+	width: 760px;
+}
+.strategy-right ul li{
+	box-sizing: border-box;
+	height: 337px;
+	overflow-y: auto;
+	padding: 10px 20px;
+	display: none;
+}
+.strategy-right ul li a{
+	float: left;
+	margin: 0 26px 26px 0;
+}
+.strategy-right ul li a span{
+	display: block;
+	margin: 5px 0;
+	line-height:  20px;
+	text-align:center;
+}
+.strategy-right ul li a img{
+	width: 60px;
+	height: 60px;
+}
+/*-------------------------------------------*/
+.hero{
+	width: 295px;
+	float: left;
+}
+.hero-title h1{
+	background-position: 7px -142px;
+}
+.hero-button ul li{
+	width: 97px;
+
+}
+.hero-button{
+	background-color: #F5F5F5;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.hero-content{
+	width: 295px;
+	overflow: hidden;
+}
+.hero-new{
+	width: 295px;
+	box-sizing: border-box;
+	
+}
+.hero-new .hero-new-text {
+	width: 295px;
+	height: 75px;
+	box-sizing: border-box;
+	padding: 11px 15px;
+	border: 1px solid #F5F5F5;
+}
+.hero-new .hero-new-text h1{
+	font-size: 18px;
+	font-weight: bolder;
+}
+.hero-new .hero-new-text p{
+	font-size: 12px;
+	color: #999999;
+}
+
+.hero-list{
+	width: 295px;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.hero-list2{
+	margin-top: 0px;
+}
+.hero-list ul li{
+	position: relative;
+	float: left;
+	margin-right: 7px;
+}
+.hero-list ul li:nth-child(4){
+	margin-right: 0;
+}
+.hero-list ul li span{
+	display: block;
+	width: 100%;
+	height: 173px;
+	background-color: rgba(0, 0, 0, 0.8);
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: 0.3s;
+}
+.hero-list ul li:hover span{
+	opacity: 1;
+}
+.hero-list ul li span i{
+	line-height: 16px;
+	width: 20px;
+	height: 100%;
+	text-align: center;
+	writing-mode: vertical-rl;
+	color: #E8BE4D;
+	position: relative;
+	margin-left: 50%;
+	left: -10px;
+}
+.hero-content-wrap{
+	overflow: hidden;
+	width: 1000px;
+}
+.hero-content-li{
+	float: left;
+}
+.hero-content-li>p{
+	float: right;
+	font-size: 12px;
+	margin-top: 20px;
+	color: #999999;
+	padding-left: 20px;
+	background-image: url('../image/index.png');
+	background-position: -255px -40px;
+}
+/*---------------------------------------------*/
+.match{
+	width: 1200px;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.matchCenter{
+	width: 872px;
+	overflow: hidden;
+	float: left;
+	margin-right: 33px;
+}
+.match-title h1{
+	line-height: 30px;
+	background-position:-2px -182px;
+}
+.match-button{
+	overflow: hidden;
+	background-color:#F5F5F5 ;
+}
+.match-button ul li{
+	padding: 0 27px;
+}
+.match-box{
+	width: 872px;
+	margin-top: 20px;
+}
+.match-list{
+	overflow: hidden;
+	display: none;
+}
+.match-list-pic{
+	width: 211px;
+	float: left;
+	margin-right: 19px;
+}
+.match-list-text{
+	width: 642px;
+	float: left;
+}
+.match-list-text h1 a{
+	display: block;
+	font-size: 24px;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+.match-list-text h1 a:hover,.match-list-text ul li a:hover{
+	text-decoration: underline;
+}
+.match-list-text p a{
+	display: block;
+	color: #666666;
+	margin-bottom: 10px;
+}
+.match-list-text ul li{
+	margin-bottom: 10px;
+	line-height: 22px;
+}
+.match-list-text ul li i{
+	display: inline-block;
+	margin-right: 10px;
+	height: 20px;
+	width: 48px;
+	color: #999999;
+	text-align: center;
+	line-height: 20px;
+	font-size: 10px;
+	border-radius: 10px;
+	border: 2px solid #e3e3e3;
+	background-color:#e3e3e3;
+}
+.match-list-text ul li a{
+	display: inline-block;
+	height: 22px;
+	line-height: 22px;
+}
+
+.match-list-text ul li span{
+	float: right;
+	font-size: 12px;
+	color: #999999;
+}
+.match-content-focus-list{
+	margin-top: 10px;
+	float: left;
+}
+.schedule{
+	width: 295px;
+	float: left;
+	overflow: hidden;
+}
+.schedule-title h1{
+	background-position: -156px -103px;
+}
+.schedule-title span{
+	float: right;
+	height: 24px;
+	width: 75px;
+	margin-top: 3px;
+	line-height: 24px;
+	text-align: center;
+	margin-right: 20px;
+	padding-left: 20px;
+	border: 1px solid  #E8BE4D;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-image: url('../image/index.png');
+	background-position: -247px -84px;
+}
+.schedule-button {
+	overflow: hidden;
+	width: 295px;
+	background-color:#F5F5F5 ;
+}
+.schedule-button ul li:nth-child(1){
+	margin-left: 25px;
+}
+.schedule-button ul li:nth-child(2){
+	margin-left: 50px;
+}
+.schedule-button ul li:nth-child(3){
+	margin-left: 105px;
+}
+.schedule-vs{
+	padding: 15px 0;
+	height: 46px;
+	border-bottom: 1px solid #e3e3e3;
+
+}
+.schedule-vs ul li{
+	float: left;
+	font-size: 12px;
+
+}
+.schedule-vs ul li:nth-child(1){
+	line-height: 46px;
+	margin-right: 25px;
+}
+.schedule-vs ul li img{
+	width: 25px;
+	height: 25px;
+}
+.schedule-vs ul li:nth-child(3){
+	margin: 0 30px;
+	font-size: 16px;
+	line-height: 46px;
+	color:  #E8BE4D;
+}
+.schedule-vs ul li.schedule-vs-logo span{
+	font-size: 12px;
+
+}
+.schedule-vs ul li.schedule-vs-logo img{
+	margin: 0 auto;
+	margin-bottom: 5px;
+	
+}
+.schedule-pic{
+	margin-top: 20px;
+}
